@@ -20,9 +20,14 @@ public class ReserveTickets {
         String input2 = scanner.nextLine();
         LocalDate reservationDate = LocalDate.parse(input2, formatter);
 
-        System.out.print(reservationDate);
+//        System.out.print(reservationDate);
         // 05/13/2023 -> 2023-05-13
 
+        System.out.print("How many tickets would you like? ");
+        String input3 = scanner.nextLine();
+        int reservationCount = Integer.parseInt(input3);
+
+        System.out.println(reservationCount);
 
 //        System.out.print(reservationName[0] + "\n" + reservationName[1]);
     }
