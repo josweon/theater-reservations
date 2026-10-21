@@ -27,7 +27,12 @@ public class ReserveTickets {
         String input3 = scanner.nextLine();
         int reservationCount = Integer.parseInt(input3);
 
-        System.out.println(reservationCount);
+//        System.out.println(reservationCount);
+        System.out.printf("\n%d ticket(s) reserved for %s under %s, %s\n---",
+                reservationCount,
+                reservationDate,
+                reservationName[1],
+                reservationName[0]);
 
 //        System.out.print(reservationName[0] + "\n" + reservationName[1]);
     }
